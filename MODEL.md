@@ -2,7 +2,7 @@
 
 **Identity / provenance:** Community GGUF conversion abenzerps/Apodex-1.1-mini-GGUF @ 59afa578 (NOT official upstream)
 
-**Campaign verdict (from `report.md`):** WLEP DO_NOT_ADVANCE at Phase 3 (early stop, frozen gate). Phase 2 decode 169.36 t/s. LocalMaxxing speed SUBMITTED/APPROVED (cmt9ijytg00xali017f46xk25, 182.31 tok/s p512/n128).
+**Campaign verdict (from `report.md`):** WELP DO_NOT_ADVANCE at Phase 3 (early stop, frozen gate). Phase 2 decode 169.36 t/s. LocalMaxxing speed SUBMITTED/APPROVED (cmt9ijytg00xali017f46xk25, 182.31 tok/s p512/n128).
 
 **Artifacts:** physical binaries at `models/apodex-1.1-mini/artifacts/` (symlinked from this campaign root; never publish the binaries).
 
