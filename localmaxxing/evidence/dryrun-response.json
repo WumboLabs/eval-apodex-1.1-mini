@@ -1,0 +1,31 @@
+{
+  "parsed": {
+    "backend": "cuda",
+    "batchSize": 1,
+    "contextLength": 2048,
+    "engineFlags": {
+      "commandSnippet": "~/Projects/local-llm/apodex-1.1-mini/runtime/llama.cpp/build-cuda-sm120/bin/llama-bench -m ~/Projects/local-llm/apodex-1.1-mini/models/Apodex-1.1-mini-IQ1_M.gguf -p 512 -n 128"
+    },
+    "engineName": "llama.cpp",
+    "engineVersion": "llama.cpp f280b26983ad0fdb705a0d9ebf0503e76f2899b0 (campaign build sm_120, CUDA 13.3)",
+    "hardware": {
+      "cpu": "AMD Ryzen 7 9800X3D 8-Core Processor",
+      "gpuCount": 1,
+      "gpuName": "NVIDIA GeForce RTX 5070",
+      "hwClass": "DISCRETE_GPU",
+      "os": "linux",
+      "vramGb": 11.9
+    },
+    "hfId": "apodex/Apodex-1.1-mini",
+    "modelRevision": "62583b464707ad58848bc2ab066747d8d5b02533",
+    "notes": "Quant: IQ1_M GGUF from abenzerps/Apodex-1.1-mini-GGUF @ 59afa57852525f79a9634d5f80dd639cceee572c (community conversion of official apodex/Apodex-1.1-mini @ 62583b464707ad58848bc2ab066747d8d5b02533), file sha256 1e84d8adf7837e96fb18712882a8a114becc7e53554372e2f612c5e0c6276cd4. Serving baseline (WLEP campaign apodex-1.1-mini): full GPU offload (-ngl 999), parallel=1 (-np 1), fit=off, flash-attn on, unified KV, reasoning OFF, speculation OFF (native MTP disabled). llama-bench -p 512 -n 128 defaults otherwise. TTFT estimated from prefill per llama.cpp runtime timings.",
+    "outputTokens": 128,
+    "promptTokens": 512,
+    "quantization": "IQ1_M",
+    "tokSOut": 182.31,
+    "tokSPrefill": 1730.93,
+    "tokSTotal": 641.3,
+    "ttftMs": 295.8
+  },
+  "valid": true
+}
