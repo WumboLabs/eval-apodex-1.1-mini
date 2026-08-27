@@ -1,6 +1,6 @@
 # WumboLabs Model Evaluation Report — Apodex 1.1 mini
 
-Campaign: `apodex-1.1-mini` · Date: 2026-08-25 · Protocol: WLEP `wlep-next-snapshot-2026-08-25-end-to-end` (DRAFT)
+Campaign: `apodex-1.1-mini` · Date: 2026-08-25 · Protocol: WELP `wlep-next-snapshot-2026-08-25-end-to-end` (DRAFT)
 Declared objective: TEXT + REASONING + CODING + TOOLS + AGENTIC USE · Host: WumboJetsII (RTX 5070 12 GB)
 
 ---
@@ -80,9 +80,9 @@ Valid measured: 106 generations/reps (90 PV + 10 perf + 3 cache probes + 2 admis
 ## 11. Publication routing
 
 - LocalMaxxing speed result: **SUBMITTED / APPROVED** — canonical ID `cmt9ijytg00xali017f46xk25` (2026-08-26T03:07:38Z; llama-bench p512/n128 → 182.31 tok/s out). A byte-identical duplicate `cmt9imzoz00xfli01g5tzz3kx` was accidentally created by a non-idempotent `--json` re-invocation of the submit command; LocalMaxxing has no speed-test delete mechanism; canonical = earlier ID. Full disclosure: `summaries/localmaxxing.json`.
-- WLEP outcome is unchanged by this submission: **DO_NOT_ADVANCE at Phase 3**. No reliability/coding/tools/context/soak claims are made.
-- LocalMaxxing benchmark suites: NOT_SUBMITTED / NOT_APPLICABLE due to early WLEP stop.
-- LocalMaxxing Report: NOT_CREATED due to early WLEP stop.
+- WELP outcome is unchanged by this submission: **DO_NOT_ADVANCE at Phase 3**. No reliability/coding/tools/context/soak claims are made.
+- LocalMaxxing benchmark suites: NOT_SUBMITTED / NOT_APPLICABLE due to early WELP stop.
+- LocalMaxxing Report: NOT_CREATED due to early WELP stop.
 - GitHub Lab Record bundle: prepared at `publication/repo-candidate/` (no git operations performed).
 - WumboCore: machine-readable summary ready (`summaries/wumbocore_summary.json`); website untouched.
 
